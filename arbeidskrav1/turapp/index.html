@@ -7,7 +7,7 @@
     <script src="turapp.js" defer></script> <!-- Laster JS etter HTML-en er lest. -->
     <title>UTsikt - Finn din neste tur</title>
 </head>
-<body class="forside">
+<body>
     <header class="toppmeny">
         <a class="logo" href="index.html">UTsikt</a>
         <a class="tekstlenke" href="#innlogging">Logg inn</a>
@@ -21,7 +21,7 @@
                 Finn inspirasjon, planlegg neste topptur og samle dine egne
                 turfavoritter på ett sted.
             </p>
-            <a class="sekundaer-knapp" href="#innlogging">Start turplanleggingen</a> <!-- Hopper til innlogging. -->
+            <a class="knapp sekundaer-knapp" href="#innlogging">Start turplanleggingen</a> <!-- Hopper til innlogging. -->
         </section>
 
         <figure class="hero-bilde"> <!-- Samler bildet og bildeteksten. -->
@@ -30,7 +30,7 @@
             <figcaption>Topptur til nye perspektiver</figcaption> <!-- Bildetekst til bildet. -->
         </figure>
 
-        <section class="innlogging-panel" id="innlogging" aria-labelledby="logg-inn"> <!-- id brukes av lenken over. -->
+        <section class="ramme innlogging-panel" id="innlogging" aria-labelledby="logg-inn"> <!-- id brukes av lenken over. -->
             <p class="overlinje">Din turdagbok</p>
             <h2 id="logg-inn">Logg inn</h2>
             <p class="panel-intro">Fortsett der du slapp, eller lag en ny turplan.</p>
@@ -44,7 +44,7 @@
                   <input type="password" id="innloggings-passord" name="passord"
                        minlength="8" autocomplete="current-password" required>
 
-                <button class="hovedknapp" type="submit">Logg inn</button>
+                <button class="knapp hovedknapp" type="submit">Logg inn</button>
             </form>
             <p id="innloggingsmelding" class="skjema-melding" aria-live="polite"></p>
             <p class="liten-tekst">Demo: bruk en gyldig e-postadresse og minst 8 tegn i passordet.</p>
