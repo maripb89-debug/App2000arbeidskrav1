@@ -130,8 +130,7 @@ a {
     line-height: 1.65;
 }
 
-.sekundaer-knapp,
-.hovedknapp {
+.knapp {
     display: inline-block;
     border: 0;
     background: var(--skog);
@@ -143,15 +142,14 @@ a {
     transition: background 160ms ease, transform 160ms ease;
 }
 
+.knapp:hover {
+    background: var(--skog-lys);
+    transform: translateY(-2px);
+}
+
 .sekundaer-knapp {
     margin-top: 1rem;
     padding: 0.85rem 1.1rem;
-}
-
-.sekundaer-knapp:hover,
-.hovedknapp:hover {
-    background: var(--skog-lys);
-    transform: translateY(-2px);
 }
 
 .hero-bilde {
@@ -182,12 +180,15 @@ a {
     font-weight: 700;
 }
 
-/* Felles utseende for innloggings- og turregistreringsskjemaet. */
-.innlogging-panel,
-.skjema-panel {
+/* Felles ramme for innlogging, turliste og turregistrering. */
+.ramme {
     padding: 2rem;
     background: var(--hvit);
     border: 1px solid var(--linje);
+}
+
+.innlogging-panel,
+.skjema-panel {
     box-shadow: 0 1rem 2.5rem rgba(23, 63, 53, 0.08);
 }
 
@@ -306,15 +307,8 @@ a {
     align-items: start;
 }
 
-.tur-liste,
-.skjema-panel {
-    background: var(--hvit);
-    border: 1px solid var(--linje);
-}
-
 .tur-liste {
     min-height: 25rem;
-    padding: 2rem;
 }
 
 .tur-antall {
@@ -406,9 +400,7 @@ a {
         margin-top: 1rem;
     }
 
-    .innlogging-panel,
-    .skjema-panel,
-    .tur-liste {
+    .ramme {
         padding: 1.25rem;
     }
 
