@@ -1,0 +1,85 @@
+BEGREPER OG RELEVANS FOR TURAPP-PROSJEKTET
+
+
+Prompt
+En prompt er instruksjonen eller sporsmalet vi gir til en KI-modell. En god prompt forklarer hva vi vil ha, og kan ogsa gi relevant bakgrunn og begrensninger.
+Relevans: Begge. Vi kan bruke prompts til a fa hjelp med kode i turappen og til a planlegge, forklare eller dokumentere arbeidet.
+
+Token
+Et token er en liten del av teksten en KI-modell leser eller skriver. Det kan vaere et helt ord, deler av et ord eller tegn. Token brukes blant annet til a beregne hvor mye tekst modellen kan behandle.
+Relevans: Begge. Token har betydning nar vi sender kode og beskrivelser til KI, og nar vi vurderer begrensninger og kostnader ved KI-verktoy.
+
+Kopilot
+Kopilot er en KI-assistent som hjelper en utvikler mens han eller hun arbeider. GitHub Copilot kan for eksempel foresla kode, forklare feil og hjelpe med refaktorering, men forslagene ma kontrolleres av utvikleren.
+Relevans: Begge. Kopilot kan hjelpe med a skrive turappens HTML, CSS og JavaScript, og er samtidig et eksempel pa KI-bruk i prosjektarbeidet.
+
+Coding Agent
+En Coding Agent er en KI-agent som kan arbeide mer selvstendig med kode. Den kan lese filer, foresla eller utfore endringer, kjore tester og rette feil ut fra en oppgave.
+Relevans: Begge. En coding agent kan bidra direkte i utviklingen av turappen og viser hvordan KI kan brukes som et mer aktivt utviklingsverktoy.
+
+Agent Skill
+En Agent Skill er en samling instrukser eller kunnskap som lar en agent utfore en bestemt type oppgave pa en fast og gjenbrukbar mate. Det kan for eksempel vaere regler for testing, prosjektoppsett eller dokumentasjon.
+Relevans: Mest b, men ogsa a. Skills handler forst og fremst om hvordan KI-arbeidet organiseres, men kan gi bedre og mer konsekvente endringer i turappen.
+
+AI API
+Et AI API er et programmeringsgrensesnitt som lar et program sende data til en KI-tjeneste og motta et svar. En app kan for eksempel sende en tekst til en modell gjennom et API.
+Relevans: Mest a. Turappen bruker ikke et AI API na, men et slikt API kunne blitt brukt dersom appen skulle fa KI-funksjoner, som forslag til turer eller beskrivelser.
+
+AI SDK
+Et AI SDK er et utviklingsbibliotek som forenkler bruken av et AI API. SDK-et kan ha ferdige funksjoner for innlogging, sending av foresporsler, streaming av svar og behandling av modellens resultat.
+Relevans: Mest a. Det er ikke nodvendig for dagens turapp, men kunne gjort det enklere a bygge inn en KI-funksjon.
+
+AI CLI
+En AI CLI er et KI-verktoy som brukes fra kommandolinjen. CLI star for Command Line Interface. Det kan brukes til a stille sporsmal, analysere filer eller starte kodeendringer uten a bruke et grafisk grensesnitt.
+Relevans: Begge. Det kan hjelpe med utvikling og testing av turappen, og er samtidig en del av arbeidsflyten for bruk av KI som utviklerverktoy.
+
+Model Context Protocol (MCP)
+Model Context Protocol, forkortet MCP, er en standard for hvordan KI-modeller kan fa tilgang til eksterne verktoy og datakilder pa en strukturert mate. Det kan for eksempel gi en agent tilgang til filer, databaser eller 
+funksjoner uten at hver integrasjon ma bygges helt fra bunnen av.
+Relevans: Mest b, men ogsa a. MCP er ikke brukt direkte i turappen,
+men kan koble en coding agent til prosjektfiler eller andre verktoy og dermed gjore KI-arbeidet mer effektivt.
+
+Kort oppsummering
+Prompt, Kopilot, Coding Agent og AI CLI er de mest direkte relevante for utviklingsarbeidet. AI API, AI SDK og MCP blir mest relevante dersom turappen senere skal fa egne KI-funksjoner eller kobles til flere tjenester. Token og Agent Skill handler hovedsakelig om hvordan KI fungerer og brukes i prosjektprosessen.
+
+
+
+
+SPESIFIKASJON FOR LEVERANSEN
+
+Malet var a lage en tekstfil knyttet til turapp-prosjektet. Filen skulle:
+- forklare kort begrepene Prompt, Token, Kopilot, Coding Agent, Agent Skill, AI API, AI SDK, AI CLI og Model Context Protocol (MCP)
+- diskutere om hvert begrep er relevant for a), b) eller begge
+- bruke egne ord, selv om KI kunne brukes som hjelpemiddel
+- forklare bade selve resultatet og hvordan resultatet ble laget
+
+Siden a) og b) ikke var forklart i prosjektmappen, ble de tolket slik:
+- a) utviklingen av selve turappen
+- b) bruk av KI og digitale utviklingsverktoy i prosjektarbeidet
+
+
+HVORDAN RESULTATET BLE TIL
+
+1. Forst ble innholdet i turapp-mappen undersokt. Det ble sett pa HTML-, CSS- og JavaScript-filene for a forsta hva prosjektet inneholder og hvilke KI-begreper som kunne knyttes til det.
+
+2. Det ble sokt etter en README eller oppgavetekst som forklarte a) og b). En slik forklaring ble ikke funnet. Derfor ble tolkningen av a) og b) skrevet tydelig inn i teksten i stedet for a late som om betydningen var kjent.
+
+3. Deretter ble hvert begrep forklart med korte formuleringer basert pa vanlig bruk av teknologien. Relevansen ble vurdert ut fra om begrepet handler om selve turappen, KI-arbeidsprosessen eller begge deler.
+
+4. KI ble brukt til a foresla forklaringer, struktur og formuleringer. Resultatet ble vurdert og tilpasset til dette prosjektet, slik at teksten ikke bare ble en generell kopi av tekniske definisjoner.
+
+5. Til slutt ble teksten kontrollert for at alle begrepene var med, at hvert begrep hadde en relevansvurdering, og at filen var lagret som en tekstfil i turapp-mappen.
+
+
+ER KLIENTVALIDERING TILSTREKKELIG?
+
+Alle valideringsteknikkene som er brukt i denne leksjonen, blir utfort pa klientsiden. Det betyr at nettleseren kontrollerer dataene for brukeren sender dem videre. Klientvalidering er nyttig
+fordi brukeren far rask tilbakemelding,
+og fordi applikasjonen kan stoppe enkle feil med en gang.
+
+Klientvalidering alene er likevel ikke tilstrekkelig for en ekte applikasjon. Den kan omgas dersom brukeren deaktiverer JavaScript, endrer HTML-koden eller sender egne foresporsler direkte. 
+Derfor ma viktig validering ogsa gjentas pa serversiden. Serveren ma kontrollere format, obligatoriske verdier, lovlige grenser, tilgang og eventuelt skadelig innhold.
+
+For turappen er klientvalideringen tilstrekkelig sa lenge dette er en lokal skoleoppgave uten backend. Dersom appen skulle lagre data pa en server eller brukes av ekte brukere, ma valideringen gjentas pa serversiden.
+
+
